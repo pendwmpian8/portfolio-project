@@ -76,5 +76,6 @@ h1, h2 {
     /*media queries*/
 /*for portfolio cards being too tall on xl screens*/
 @media screen and (min-width: 1200px) {
+#portfolio .card-text{
     min-height: auto;
-}
+}}
