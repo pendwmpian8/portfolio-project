@@ -8,6 +8,8 @@
 /* global styles */
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
+
+
  #hero {
         background-color: #dbdcde;
         background-image: url(../images/background.webp);
@@ -32,12 +34,32 @@ h1, h2 {
         background-color: white;
     }
 
+/*portfolio*/
     #portfolio {
         background-color: #dbdcde;
     }
 
+    #portfolio .card-title {
+        color:#1f7798;
+        font-size: 1.2rem;
+    }
+
+#portfolio .btn:hover {
+    background-color: #1f7798;
+}
+
+#portfolio .card-text{
+    min-height: 120px;
+}
+/*contact*/
     #contact {
         background-color: white;
     }
 
    
+    /*media queries*/
+/*for portfolio cards being too tall on xl screens*/
+@media screen and (min-width: 1200px) {
+    min-height: auto;
+    
+}
